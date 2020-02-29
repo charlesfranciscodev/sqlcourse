@@ -122,3 +122,47 @@ WHERE age > 80;
 SELECT *
 FROM employee
 WHERE last_name LIKE '%ith';
+
+-- Updating records - Exercices
+
+UPDATE employee
+SET last_name = 'Weber-Williams'
+WHERE first_name = 'Jonie' AND last_name = 'Weber';
+
+UPDATE employee
+SET age = age + 1
+WHERE first_name = 'Dirk' AND last_name = 'Smith';
+
+UPDATE employee
+SET title = 'Administrative Assistant'
+WHERE title = 'Secretary';
+
+UPDATE employee
+SET salary = salary + 3500::MONEY
+WHERE salary < 30000::MONEY;
+
+UPDATE employee
+SET salary = salary + 4500::MONEY
+WHERE salary > 33500::MONEY;
+
+UPDATE employee
+SET title = 'Programmer III'
+WHERE title = 'Programmer II';
+
+UPDATE employee
+SET title = 'Programmer II'
+WHERE title = 'Programmer';
+
+-- Deleting records - Exercices
+
+DELETE FROM employee
+WHERE first_name = 'Jonie' AND last_name = 'Weber-Williams';
+
+DELETE FROM employee
+WHERE salary > 70000::MONEY;
+
+DELETE FROM employee;
+
+-- Drop a table - Exercices
+
+DROP TABLE employee;

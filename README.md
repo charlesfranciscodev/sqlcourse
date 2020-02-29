@@ -7,7 +7,6 @@
 * Updating records
 * Deleting records
 * Drop a table
-* Advanced queries
 
 ## Command(s)
 
