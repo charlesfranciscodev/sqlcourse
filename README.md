@@ -1,12 +1,25 @@
 # SQLCourse with PostgreSQL and Docker
 
 ## Content
+
+### SQLCourse
 * Selecting data
 * Creating tables
 * Inserting into a table
 * Updating records
 * Deleting records
 * Drop a table
+
+### SQLCourse2
+* SELECT Statement
+* Aggregate Functions
+* GROUP BY clause
+* HAVING clause
+* ORDER BY clause
+* Combining Conditions & Boolean Operators
+* IN and BETWEEN
+* Mathematical Functions
+* Table Joins, a must
 
 ## Command(s)
 
@@ -23,7 +36,7 @@
 `psql -h localhost -U postgres -d postgres`
 
 ### Run a SQL script
-`psql -h localhost -U postgres -d postgres -f sqlcourse.sql`
+`psql -h localhost -U postgres -d postgres -f sqlcourse2.sql`
 
 ## Reference(s)
 * [SQLCourse](http://www.sqlcourse.com/)
